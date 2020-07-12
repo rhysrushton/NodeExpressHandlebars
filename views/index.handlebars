@@ -1,0 +1,38 @@
+<h1>Burger Logger</h1>
+
+<h2>To Eat</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless devour}}
+      {{> burgers/burger-block devour=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Eaten</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devour}}
+      {{> burgers/burger-block devour=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Add a Burger to the List</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burger">Burger Type:</label>
+    <input type="text" id="burger" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="devour">Do you want to eat this burger? Or have you eaten it already? </label><br>
+    <input type="radio" name="devour" value="1" checked> Eaten Already<br>
+    <input type="radio" name="devour" value="0"> Want to eat
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
