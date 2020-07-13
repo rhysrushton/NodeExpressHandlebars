@@ -1,13 +1,15 @@
 # Application Using Node-Express-Handlebars-Heroku
-______________________________________________________________
+
 ## What is this? 
 This is a full stack web application. The app follows the MVC design pattern. 
 
 It uses node.js, handlebars and MySql. 
 
 - [In Use](#In-Use)
-- [How to Use] (#How-to-Use)
--[Dependencies](#Dependencies)
+
+- [How to Use](#How-to-Use)
+
+ -[Dependencies](#Dependencies)
 
 ## In Use
 
