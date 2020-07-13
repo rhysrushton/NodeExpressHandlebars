@@ -1,7 +1,38 @@
+
 h1{
-    color: red;
+    color: royalblue; 
+    text-align: center;
 }
 
 h2{
     color: royalblue;
 }
+
+.input{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.eaten{
+    float: left;
+    position: relative;
+    margin-right: 5%; 
+    margin-left: -5%;
+    display: inline-block
+}
+
+.eat{
+    display: inline-block; 
+ 
+}
+
+.float{
+ margin-left: 40%;
+}
+
+button{
+    border-radius: 8px;
+}
+
+
+
