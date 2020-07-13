@@ -9,7 +9,7 @@ It uses node.js, handlebars and MySql.
 
 - [How to Use](#How-to-Use)
 
- -[Dependencies](#Dependencies)
+ - [Dependencies](#Dependencies)
 
 ## In Use
 
