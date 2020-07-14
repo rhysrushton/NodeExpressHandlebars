@@ -20,9 +20,13 @@ It uses node.js, handlebars and MySql.
 ## Dependencies 
 
 [Express](https://www.npmjs.com/package/express) for routing. 
+
 [dotenv](https://www.npmjs.com/package/dotenv) for environmental variables. 
+
 [JawsDB](https://devcenter.heroku.com/articles/jawsdb) for database functionality on heroku. 
+
 [MYSQL](https://www.npmjs.com/package/mysql) for database functionality on localhost. 
+
 [Colors](https://www.npmjs.com/package/colors) for terminal colors. 
 
 
