@@ -14,6 +14,7 @@ https://morning-tundra-77909.herokuapp.com/
  - [Dependencies](#Dependencies)
 
 ## In Use
+![](/app.gif)
 
 ## How to Use
 
@@ -21,3 +22,5 @@ https://morning-tundra-77909.herokuapp.com/
 
 
 https://handlebarsjs.com/guide/block-helpers.html#simple-iterators
+
+
